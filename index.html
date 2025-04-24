@@ -1,0 +1,3250 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Casa MiraMonte" />
+    <meta
+      name="keywords"
+      content="hotel, booking, business, restaurant, spa, resort, landing, agency, corporate, start up, site design, new business site, business template, professional template, classic, modern"
+    />
+    <title>Casa MiraMonte | O Simfonie de Comfort si Liniste</title>
+    <link
+      rel="icon"
+      href="assets/img/favicons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css All Plugins Files -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/magnific-popup.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./static/css/remixicon.css" />
+    <link rel="stylesheet" href="./static/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="./static/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./static/css/semantic.min.css" />
+    <link rel="stylesheet" href="./static/css/slick.min.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    ></script>
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <style>
+      .hover-lift {
+        transition: transform 0.3s ease;
+      }
+      .hover-lift:hover {
+        transform: translateY(-5px);
+      }
+      .price-animation {
+        animation: fadeInUp 0.8s ease-out;
+      }
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="overflow-x-hidden"
+    data-aos-easing="ease"
+    data-aos-duration="400"
+    data-aos-delay="0"
+  >
+    <!-- Header -->
+    <header class="fixed z-10 w-full bg-white">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-[12px] flex"
+      >
+        <div class="w-1/2 py-[10px] flex">
+          <div class="md:pr-[15px] md:border-r border-solid border-[#ddd]">
+            <i
+              class="fa-solid fa-envelope mr-[5px] text-[#232B2B] text-[16px]"
+            ></i>
+            mail@domeniu.ro
+          </div>
+        </div>
+        <div class="w-1/2 py-[10px] flex justify-end">
+          <div class="md:pr-[15px] md:border-r border-solid border-[#ddd]">
+            <i
+              class="fa-solid fa-phone mr-[5px] text-[#232B2B] text-[16px]"
+            ></i>
+            +40 726 722 023
+          </div>
+          <div class="mx-[-5px] pl-[15px] hidden md:flex">
+            <a href="javascript:void(0)">
+              <i
+                class="fa-brands fa-facebook-f mx-[5px] text-[18px] text-[#232B2B]"
+              ></i>
+            </a>
+            <a href="javascript:void(0)">
+              <i
+                class="fa-brands fa-instagram mx-[25px] text-[18px] text-[#232B2B]"
+              ></i>
+            </a>
+            <a href="javascript:void(0)">
+              <i
+                class="fa-brands fa-tiktok mx-[5px] text-[18px] text-[#232B2B]"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#000000b3] absolute w-full z-[16] py-[6px]">
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-[12px]"
+        >
+          <nav class="flex flex-nowrap w-full py-[3px]">
+            <a class="py-[5px] font-bold text-lg" href="/"> Casa MiraMonte </a>
+            <button
+              class="navbar-toggler shadow-none flex basis-[auto] grow items-center text-[24px] text-[#fff] lg:hidden flex justify-end"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="flex basis-[auto] grow items-center lg:flex hidden">
+              <ul
+                class="navbar-nav flex w-full relative z-[3] flex-row justify-end"
+              >
+                <li class="ml-[30px] nav-item dropdown relative">
+                  <a
+                    class="py-[5px] text-[15px] text-[#fff] nav-link"
+                    href="#rezerva"
+                  >
+                    Rezerva !
+                  </a>
+                </li>
+                <li class="ml-[30px] nav-item dropdown relative">
+                  <a class="py-[5px] text-[15px] text-[#fff] nav-link" href="/">
+                    Acasa
+                  </a>
+                </li>
+                <li class="ml-[30px] nav-item dropdown relative">
+                  <a
+                    class="py-[5px] text-[15px] text-[#fff] nav-link"
+                    href="#galerie"
+                  >
+                    Galerie
+                  </a>
+                </li>
+                <li class="ml-[30px] nav-item dropdown relative">
+                  <a
+                    class="py-[5px] text-[15px] text-[#fff] nav-link"
+                    href="#reguli"
+                  >
+                    Reguli
+                  </a>
+                </li>
+                <li class="ml-[30px] nav-item dropdown relative">
+                  <a
+                    class="py-[5px] text-[15px] text-[#fff] nav-link"
+                    href="#preturi"
+                  >
+                    Preturi
+                  </a>
+                </li>
+                <li class="ml-[30px] nav-item dropdown relative">
+                  <a
+                    class="py-[5px] text-[15px] text-[#fff] nav-link"
+                    href="#testimoniale"
+                  >
+                    Testimoniale
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Mobile-menu -->
+    <div
+      class="lh-sidebar-overlay hidden w-full h-screen fixed top-0 left-0 bg-[#000000b3] z-[17]"
+    ></div>
+    <div
+      id="lh_mobile_menu"
+      class="lh-side-cart lh-mobile-menu transition-all duration-[0.5s] ease w-[300px] h-full fixed left-[-300px] bg-[#fff] overflow-y-auto z-[20] p-[15px]"
+    >
+      <div
+        class="w-full flex flex-wrap justify-between border-b-2 border-solid border-[#e3e1e1] pb-[10px] mb-[10px]"
+      >
+        <span class="text-[18px] text-[#ed5b31] font-semibold"
+          >Casa MiraMonte</span
+        >
+        <button
+          type="button"
+          class="lh-close relative border-0 text-[30px] leading-[1px] text-[#999] bg-[#fff]"
+        >
+          ×
+        </button>
+      </div>
+      <div class="lh-menu-inner flex flex-col justify-between">
+        <div class="lh-menu-content">
+          <ul>
+            <li class="dropdown drop-list leading-[28px] relative">
+              <a
+                href="/"
+                class="block capitalize text-[15px] font-normal text-[#444] hover:text-[#444] no-underline border-b border-solid border-[#e3e1e1] p-[10px]"
+                >Rezerva !</a
+              >
+            </li>
+            <li class="dropdown drop-list leading-[28px] relative">
+              <a
+                href="/"
+                class="block capitalize text-[15px] font-normal text-[#444] hover:text-[#444] no-underline border-b border-solid border-[#e3e1e1] p-[10px]"
+                >Acasa</a
+              >
+            </li>
+            <li class="dropdown drop-list leading-[28px] relative">
+              <a
+                href="#galerie"
+                class="block capitalize text-[15px] font-normal text-[#444] hover:text-[#444] no-underline border-b border-solid border-[#e3e1e1] p-[10px]"
+                >Galerie</a
+              >
+            </li>
+            <li class="dropdown drop-list leading-[28px] relative">
+              <a
+                href="#reguli"
+                class="block capitalize text-[15px] font-normal text-[#444] hover:text-[#444] no-underline border-b border-solid border-[#e3e1e1] p-[10px]"
+                >Reguli</a
+              >
+            </li>
+            <li class="dropdown drop-list leading-[28px] relative">
+              <a
+                href="#preturi"
+                class="block capitalize text-[15px] font-normal text-[#444] hover:text-[#444] no-underline border-b border-solid border-[#e3e1e1] p-[10px]"
+                >Preturi</a
+              >
+            </li>
+            <li class="dropdown drop-list leading-[28px] relative">
+              <a
+                href="#testimoniale"
+                class="block capitalize text-[15px] font-normal text-[#444] hover:text-[#444] no-underline border-b border-solid border-[#e3e1e1] p-[10px]"
+                >Testimoniale</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section>
+        <div
+          class="mx-[-5px] pl-[15px] md:hidden flex items-center justify-start w-full py-[25px]"
+        >
+          <a>
+            <i
+              class="fa-brands fa-facebook-f mx-[5px] text-[30px] text-[#232B2B]"
+            ></i>
+          </a>
+          <a>
+            <i
+              class="fa-brands fa-instagram mx-[25px] text-[35px] text-[#232B2B]"
+            ></i>
+          </a>
+          <a>
+            <i
+              class="fa-brands fa-tiktok mx-[5px] text-[32px] text-[#232B2B]"
+            ></i>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!-- Hero -->
+    <section class="section-hero lg:pb-[50px] md:pb-[70px]">
+      <div
+        class="flex flex-wrap flex-col justify-center px-[12px] hero-image md:h-[calc(100vh_-_100px)] sm:h-[80vh] min-[481px]:h-[580px] h-[500px] bg-[url(static/images/cover.jpg)] w-full bg-cover bg-bottom m-0 bg-blend-overlay bg-[#000000cc]"
+      >
+        <div class="flex flex-wrap w-full h-full">
+          <div class="relative w-full h-full">
+            <div
+              class="particles-bg w-full h-full absolute top-0 left-0 opacity-30"
+              id="particles-js"
+            >
+              <canvas
+                class="particles-js-canvas-el"
+                width="1881"
+                height="757"
+                style="width: 100%; height: 100%"
+              ></canvas>
+            </div>
+            <div
+              class="max-w-[830px] w-full lg:top-[50%] top-[53%] absolute left-[50%] z-1 text-center flex flex-wrap flex-col justify-center translate-x-[-50%] translate-y-[-50%]"
+            >
+              <h4
+                class="max-w-[250px] m-[auto] font-Roboto relative text-[#fff] text-[16px] font-light"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span
+                  class="py-side-border border-[1px] border-solid border-[#ed5b31] w-[50px] absolute top-[9px] left-[-60px] z-[0]"
+                ></span>
+                Chalet de Lux &amp; Resort de top
+                <span
+                  class="py-side-border border-[1px] border-solid border-[#ed5b31] w-[50px] absolute top-[9px] right-[-60px] z-[0]"
+                ></span>
+              </h4>
+              <h1
+                class="my-[30px] font-Cardo wordspac_15 2xl:text-[48px] xl:text-[42px] lg:text-[38px] md:text-[35px] sm:text-[30px] text-[24px] md:leading-[1.2857em] sm:leading-[42px] leading-[36px] font-bold sm:tracking-[2px] tracking-[1px] uppercase text-[#fff]"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                O simfonie de comfort &amp; liniste.
+              </h1>
+              <a
+                class="m-[auto] duration-[0.3s] ease-in-out border-[1px] border-solid border-[#ed5b31] px-[15px] py-[5px] leading-[28px] bg-[#ed5b31] text-[#fff] relative z-[2] text-[15px] font-medium tracking-[1px] rounded-[10px] hover:bg-inherit hover:text-[#ed5b31]"
+                href="#rezerva"
+              >
+                Rezerva !
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Search control -->
+    <section
+      class="section-search-control absolute bottom-0 z-[1] w-full"
+      id="rezerva"
+    >
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-[12px]"
+      >
+        <form class="w-full">
+          <div
+            class="search-control-boxing shadow-[0_0_50px_0_rgba(0,0,0,0.1)] p-[12px] bg-[#fff] rounded-[15px] flex justify-between"
+          >
+            <div class="w-full p-[12px]">
+              <div class="search-box relative">
+                <h4
+                  class="pb-[5px] lg:text-[16px] text-[14px] text-[#000] font-bold"
+                >
+                  Check in
+                </h4>
+                <div class="relative w-full">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    datepicker
+                    id="check-in-datepicker"
+                    type="text"
+                    class="border-b border-gray-300 text-gray-900 text-sm block w-full ps-10 p-2.5"
+                    placeholder="Select date"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="w-full p-[12px]">
+              <div class="search-box relative">
+                <h4
+                  class="pb-[5px] lg:text-[16px] text-[14px] text-[#000] font-bold"
+                >
+                  Check Out
+                </h4>
+                <div class="relative w-full">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-500"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    datepicker
+                    id="checkout-date-picker"
+                    type="text"
+                    class="border-b border-gray-300 text-gray-900 text-sm block w-full ps-10 p-2.5"
+                    placeholder="Select date"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="w-full p-[12px]">
+              <div class="search-box relative">
+                <h4
+                  class="pb-[5px] lg:text-[16px] text-[14px] text-[#000] font-bold"
+                >
+                  Adulti
+                </h4>
+                <input
+                  type="number"
+                  id="adults-count-input"
+                  aria-describedby="helper-text-explanation"
+                  class="border-b border-gray-300 text-gray-900 text-sm block w-full p-2.5"
+                  placeholder="0"
+                  required
+                />
+              </div>
+            </div>
+            <div class="w-full p-[12px]">
+              <div class="search-box relative">
+                <h4
+                  class="pb-[5px] lg:text-[16px] text-[14px] text-[#000] font-bold"
+                >
+                  Copii
+                </h4>
+                <input
+                  type="number"
+                  id="children-count-input"
+                  aria-describedby="helper-text-explanation"
+                  class="border-b border-gray-300 text-gray-900 text-sm block w-full p-2.5"
+                  placeholder="0"
+                  required
+                />
+              </div>
+            </div>
+            <div class="flex p-[12px]">
+              <div
+                class="search-control-button flex items-center min-w-[117px]"
+              >
+                <button
+                  class="m-[auto] duration-[0.3s] ease-in-out border-[1px] border-solid border-[#ed5b31] px-[15px] py-[5px] leading-[28px] bg-[#ed5b31] text-[#fff] relative z-[2] text-[15px] font-medium tracking-[1px] rounded-[10px] hover:bg-inherit hover:text-[#ed5b31]"
+                >
+                  Rezerva !
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Room -->
+    <section
+      class="section-room relative xl:py-[100px] py-[70px]"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      id="rooms"
+    >
+      <div
+        class="2xl:before:w-[150px] xl:before:w-[130px] before:w-[80px] 2xl:before:h-[150px] dark-opicity-5 xl:before:h-[130px] before:h-[80px] bg-size-full before:absolute 2xl:before:top-[100px] before:top-0 2xl:before:right-[180px] xl:before:right-[50px] before:right-0 before:z-[-1]"
+      ></div>
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-[12px]"
+      >
+        <div class="text-center w-full mb-[30px]">
+          <h2
+            class="text-[#000] font-medium leading-[1.2] 2xl:text-[40px] xl:text-[35px] xl:pb-0 lg:text-[30px] md:text-[28px] sm:text-[26px] text-[22px]"
+          >
+            Vezi <span class="text-[#ed5b31]">camerele</span> noastre !
+          </h2>
+        </div>
+        <nav>
+          <ul
+            class="nav nav-tabs rooms lh-room relative border-0 flex flex-wrap mb-[-24px]"
+            id="nav_tab"
+            role="tablist"
+          >
+            <li
+              id="room-1-selector"
+              class="relative cursor-pointer mb-0 text-[20px] px-[12px] mb-[24px] leading-[28px] text-[#000] focus:text-[#000] lg:w-[25%] md:w-[50%] border-0 text-center nav-link active"
+            >
+              <div
+                class="room-active-1 hidden bg-white absolute top-8 right-8 h-[24px] z-10 rounded-full w-[32px] h-[32px] flex items-center justify-center text-[#ed5b31]"
+              >
+                <i class="fa-solid fa-check-double"></i>
+              </div>
+              <a class="block hover:text-[#000]">
+                <img
+                  src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                  alt="O persoana"
+                  class="w-full mb-[15px] rounded-[15px]"
+                />Camera I</a
+              >
+            </li>
+            <li
+              id="room-2-selector"
+              class="relative cursor-pointer mb-0 text-[20px] px-[12px] mb-[24px] leading-[28px] text-[#000] focus:text-[#000] lg:w-[25%] md:w-[50%] border-0 text-center nav-link"
+            >
+              <div
+                class="room-active-2 hidden bg-white absolute top-8 right-8 h-[24px] z-10 rounded-full w-[32px] h-[32px] flex items-center justify-center text-[#ed5b31]"
+              >
+                <i class="fa-solid fa-check-double"></i>
+              </div>
+              <a class="block hover:text-[#000]">
+                <img
+                  src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                  alt="Doua Persoane"
+                  class="w-full mb-[15px] rounded-[15px]"
+                />
+                Camera II
+              </a>
+            </li>
+            <li
+              id="room-3-selector"
+              class="relative cursor-pointer mb-0 text-[20px] px-[12px] mb-[24px] leading-[28px] text-[#000] focus:text-[#000] lg:w-[25%] md:w-[50%] border-0 text-center nav-link"
+            >
+              <div
+                class="room-active-3 hidden bg-white absolute top-8 right-8 h-[24px] z-10 rounded-full w-[32px] h-[32px] flex items-center justify-center text-[#ed5b31]"
+              >
+                <i class="fa-solid fa-check-double"></i>
+              </div>
+              <a class="block hover:text-[#000]">
+                <img
+                  src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                  alt="Super Room"
+                  class="w-full mb-[15px] rounded-[15px]"
+                />
+                Camera III
+              </a>
+            </li>
+            <li
+              id="room-4-selector"
+              class="relative cursor-pointer mb-0 text-[20px] px-[12px] mb-[24px] leading-[28px] text-[#000] focus:text-[#000] lg:w-[25%] md:w-[50%] border-0 text-center nav-link"
+            >
+              <div
+                class="room-active-4 hidden bg-white absolute top-8 right-8 h-[24px] z-10 rounded-full w-[32px] h-[32px] flex items-center justify-center text-[#ed5b31]"
+              >
+                <i class="fa-solid fa-check-double"></i>
+              </div>
+              <a class="block hover:text-[#000]">
+                <img
+                  src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                  alt="Presidential Room"
+                  class="w-full mb-[15px] rounded-[15px]"
+                />
+                Camera IV
+              </a>
+            </li>
+            <li
+              id="room-5-selector"
+              class="relative cursor-pointer mb-0 text-[20px] px-[12px] mb-[24px] leading-[28px] text-[#000] focus:text-[#000] lg:w-[25%] md:w-[50%] border-0 text-center nav-link"
+            >
+              <div
+                class="room-active-5 hidden bg-white absolute top-8 right-8 h-[24px] z-10 rounded-full w-[32px] h-[32px] flex items-center justify-center text-[#ed5b31]"
+              >
+                <i class="fa-solid fa-check-double"></i>
+              </div>
+              <a class="block hover:text-[#000]">
+                <img
+                  src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                  alt="Presidential Room"
+                  class="w-full mb-[15px] rounded-[15px]"
+                />
+                Camera V
+              </a>
+            </li>
+            <li
+              id="room-6-selector"
+              class="relative mb-0 cursor-pointer text-[20px] px-[12px] mb-[24px] leading-[28px] text-[#000] focus:text-[#000] lg:w-[25%] md:w-[50%] border-0 text-center nav-link"
+            >
+              <div
+                class="room-active-6 hidden bg-white absolute top-8 right-8 h-[24px] z-10 rounded-full w-[32px] h-[32px] flex items-center justify-center text-[#ed5b31]"
+              >
+                <i class="fa-solid fa-check-double"></i>
+              </div>
+              <a class="block hover:text-[#000]">
+                <img
+                  src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                  alt="Presidential Room"
+                  class="w-full mb-[15px] rounded-[15px]"
+                />
+                Camera VI
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="tab-content border border-solid border-[#e3e1e1] rounded-[15px] bg-[#fff] relative p-0 mt-[25px] overflow-hidden"
+          id="nav-tabContent"
+        >
+          <!-- Change these divs from tab-pane fade to room-content hidden -->
+          <div class="room-content" id="room-1-content">
+            <div
+              class="flex flex-wrap justify-between mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px]"
+            >
+              <div class="xl:w-1/2 w-full px-[12px]">
+                <div class="lh-room-contain relative px-[12px] py-[24px]">
+                  <div
+                    class="lh-contain-heading pb-[15px] flex justify-between"
+                  >
+                    <h4
+                      class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                    >
+                      Camera I
+                    </h4>
+                  </div>
+                  <div class="lh-room-size flex flex-wrap">
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      X m2 <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      1 pat <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      Maxim 2 persoane
+                    </p>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                    quisquam aperiam illo asperiores esse, voluptatem molestias
+                    voluptate qui assumenda consequatur expedita nulla
+                    exercitationem omnis excepturi sit ut unde aspernatur quasi?
+                  </p>
+                  <div
+                    class="lh-main-features border-t border-solid border-[#e3e1e1] pt-[30px] mt-[30px]"
+                  >
+                    <div
+                      class="lh-contain-heading pb-[15px] flex justify-between"
+                    >
+                      <h4
+                        class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                      >
+                        Ce gasesti in camera
+                      </h4>
+                    </div>
+                    <div class="lh-room-features flex">
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 1
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 2
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 3
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 4
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 5
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 6
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="xl:w-1/2 w-full">
+                <div class="room-img h-full w-full relative">
+                  <img
+                    src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                    alt="room-img"
+                    class="room-image h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="room-content hidden" id="room-2-content">
+            <div
+              class="flex flex-wrap justify-between mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px]"
+            >
+              <div class="xl:w-1/2 w-full px-[12px]">
+                <div class="lh-room-contain relative px-[12px] py-[24px]">
+                  <div
+                    class="lh-contain-heading pb-[15px] flex justify-between"
+                  >
+                    <h4
+                      class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                    >
+                      Camera II
+                    </h4>
+                  </div>
+                  <div class="lh-room-size flex flex-wrap">
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      X m2 <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      2 paturi <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      Maxim 4 persoane
+                    </p>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                    quisquam aperiam illo asperiores esse, voluptatem molestias
+                    voluptate qui assumenda consequatur expedita nulla
+                    exercitationem omnis excepturi sit ut unde aspernatur quasi?
+                  </p>
+                  <div
+                    class="lh-main-features border-t border-solid border-[#e3e1e1] pt-[30px] mt-[30px]"
+                  >
+                    <div
+                      class="lh-contain-heading pb-[15px] flex justify-between"
+                    >
+                      <h4
+                        class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                      >
+                        Ce gasesti in camera
+                      </h4>
+                    </div>
+                    <div class="lh-room-features flex">
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 1
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 2
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 3
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 4
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 5
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 6
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="xl:w-1/2 w-full">
+                <div class="room-img h-full w-full relative">
+                  <img
+                    src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                    alt="room-img"
+                    class="room-image h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="room-content hidden" id="room-3-content">
+            <div
+              class="flex flex-wrap justify-between mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px]"
+            >
+              <div class="xl:w-1/2 w-full px-[12px]">
+                <div class="lh-room-contain relative px-[12px] py-[24px]">
+                  <div
+                    class="lh-contain-heading pb-[15px] flex justify-between"
+                  >
+                    <h4
+                      class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                    >
+                      Camera III
+                    </h4>
+                  </div>
+                  <div class="lh-room-size flex flex-wrap">
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      X m2 <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      1 pat <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      Maxim 2 persoane
+                    </p>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                    quisquam aperiam illo asperiores esse, voluptatem molestias
+                    voluptate qui assumenda consequatur expedita nulla
+                    exercitationem omnis excepturi sit ut unde aspernatur quasi?
+                  </p>
+                  <div
+                    class="lh-main-features border-t border-solid border-[#e3e1e1] pt-[30px] mt-[30px]"
+                  >
+                    <div
+                      class="lh-contain-heading pb-[15px] flex justify-between"
+                    >
+                      <h4
+                        class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                      >
+                        Ce gasesti in camera
+                      </h4>
+                    </div>
+                    <div class="lh-room-features flex">
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 1
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 2
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 3
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 4
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 5
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 6
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="xl:w-1/2 w-full">
+                <div class="room-img h-full w-full relative">
+                  <img
+                    src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                    alt="room-img"
+                    class="room-image h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="room-content hidden" id="room-4-content">
+            <div
+              class="flex flex-wrap justify-between mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px]"
+            >
+              <div class="xl:w-1/2 w-full px-[12px]">
+                <div class="lh-room-contain relative px-[12px] py-[24px]">
+                  <div
+                    class="lh-contain-heading pb-[15px] flex justify-between"
+                  >
+                    <h4
+                      class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                    >
+                      Camera IV
+                    </h4>
+                  </div>
+                  <div class="lh-room-size flex flex-wrap">
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      X m2 <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      1 pat <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      Maxim 2 persoane
+                    </p>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                    quisquam aperiam illo asperiores esse, voluptatem molestias
+                    voluptate qui assumenda consequatur expedita nulla
+                    exercitationem omnis excepturi sit ut unde aspernatur quasi?
+                  </p>
+                  <div
+                    class="lh-main-features border-t border-solid border-[#e3e1e1] pt-[30px] mt-[30px]"
+                  >
+                    <div
+                      class="lh-contain-heading pb-[15px] flex justify-between"
+                    >
+                      <h4
+                        class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                      >
+                        Ce gasesti in camera
+                      </h4>
+                    </div>
+                    <div class="lh-room-features flex">
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 1
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 2
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 3
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 4
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 5
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 6
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="xl:w-1/2 w-full">
+                <div class="room-img h-full w-full relative">
+                  <img
+                    src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                    alt="room-img"
+                    class="room-image h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="room-content hidden" id="room-5-content">
+            <div
+              class="flex flex-wrap justify-between mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px]"
+            >
+              <div class="xl:w-1/2 w-full px-[12px]">
+                <div class="lh-room-contain relative px-[12px] py-[24px]">
+                  <div
+                    class="lh-contain-heading pb-[15px] flex justify-between"
+                  >
+                    <h4
+                      class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                    >
+                      Camera V
+                    </h4>
+                  </div>
+                  <div class="lh-room-size flex flex-wrap">
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      X m2 <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      1 pat <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      Maxim 2 persoane
+                    </p>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                    quisquam aperiam illo asperiores esse, voluptatem molestias
+                    voluptate qui assumenda consequatur expedita nulla
+                    exercitationem omnis excepturi sit ut unde aspernatur quasi?
+                  </p>
+                  <div
+                    class="lh-main-features border-t border-solid border-[#e3e1e1] pt-[30px] mt-[30px]"
+                  >
+                    <div
+                      class="lh-contain-heading pb-[15px] flex justify-between"
+                    >
+                      <h4
+                        class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                      >
+                        Ce gasesti in camera
+                      </h4>
+                    </div>
+                    <div class="lh-room-features flex">
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 1
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 2
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 3
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 4
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 5
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 6
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="xl:w-1/2 w-full">
+                <div class="room-img h-full w-full relative">
+                  <img
+                    src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                    alt="room-img"
+                    class="room-image h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="room-content hidden" id="room-6-content">
+            <div
+              class="flex flex-wrap justify-between mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px]"
+            >
+              <div class="xl:w-1/2 w-full px-[12px]">
+                <div class="lh-room-contain relative px-[12px] py-[24px]">
+                  <div
+                    class="lh-contain-heading pb-[15px] flex justify-between"
+                  >
+                    <h4
+                      class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                    >
+                      Camera VI
+                    </h4>
+                  </div>
+                  <div class="lh-room-size flex flex-wrap">
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      X m2 <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      1 pat <span class="px-[15px]">|</span>
+                    </p>
+                    <p class="pb-[15px] text-[14px] text-[#777] leading-[1.2]">
+                      Maxim 2 persoane
+                    </p>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                    quisquam aperiam illo asperiores esse, voluptatem molestias
+                    voluptate qui assumenda consequatur expedita nulla
+                    exercitationem omnis excepturi sit ut unde aspernatur quasi?
+                  </p>
+                  <div
+                    class="lh-main-features border-t border-solid border-[#e3e1e1] pt-[30px] mt-[30px]"
+                  >
+                    <div
+                      class="lh-contain-heading pb-[15px] flex justify-between"
+                    >
+                      <h4
+                        class="xl:text-[22px] text-[18px] leading-[1.2] font-bold text-[#000] text-left"
+                      >
+                        Ce gasesti in camera
+                      </h4>
+                    </div>
+                    <div class="lh-room-features flex">
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 1
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 2
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 3
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="lh-cols-room">
+                        <ul class="pl-[16px] mb-0">
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 4
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 5
+                          </li>
+                          <li class="text-[15px] text-[#777] leading-[1.2]">
+                            Chestie 6
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="xl:w-1/2 w-full">
+                <div class="room-img h-full w-full relative">
+                  <img
+                    src="https://roomraccoon.com/wp-content/uploads/2024/06/2-1.png"
+                    alt="room-img"
+                    class="room-image h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Prices -->
+    <section data-aos="fade-up" data-aos-duration="2000" id="preturi">
+      <div
+        class="flex flex-wrap justify-center items-center mx-auto 2xl:max-w-[1420px] xl:max-w-[1240px] lg:max-w-[1060px] md:max-w-[820px] sm:max-w-[640px] relative"
+      >
+        <div class="grid md:grid-cols-2 gap-8 mb-16">
+          <!-- Whole Cabin Card -->
+          <div
+            class="bg-white rounded-3xl shadow-2xl p-8 hover-lift border border-gray-100 relative overflow-hidden"
+          >
+            <!-- Popular Badge -->
+            <div
+              class="absolute top-0 right-0 bg-gray-300 text-[#ed5b31] px-4 py-1 rounded-bl-xl text-sm font-semibold"
+            >
+              Cel mai popular
+            </div>
+
+            <div class="text-center mb-8">
+              <div
+                class="bg-gradient-to-br from-blue-500 to-indigo-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg"
+              >
+                <i class="fa-solid w-8 h-8 fa-house text-[#ed5b31]"></i>
+              </div>
+              <h2 class="text-3xl font-bold mb-2 text-[#ed5b31]">
+                Cabana Întreagă
+              </h2>
+              <p class="text-gray-600">
+                Intimitate completă pentru grupul dumneavoastră
+              </p>
+            </div>
+
+            <div class="text-center mb-8">
+              <div class="price-animation">
+                <span class="text-5xl font-extrabold text-[#ed5b31]">1700</span>
+                <span class="text-2xl font-bold text-[#ed5b31]">RON</span>
+                <span class="text-gray-500 block mt-2">/ noapte</span>
+              </div>
+            </div>
+
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Toate camerele disponibile
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Acces exclusiv la facilități
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Living & zonă de relaxare
+              </li>
+            </ul>
+          </div>
+
+          <!-- Single Room Card -->
+          <div
+            class="bg-white rounded-3xl shadow-2xl p-8 hover-lift border border-gray-100"
+          >
+            <div class="text-center mb-8">
+              <div
+                class="bg-gradient-to-br from-purple-500 to-pink-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg"
+              >
+                <i class="fa-solid w-8 h-8 fa-house-user text-[#ed5b31]"></i>
+              </div>
+              <h2 class="text-3xl font-bold mb-2 text-[#ed5b31]">
+                Cameră Single
+              </h2>
+              <p class="text-gray-600">Perfect pentru călătorii solo</p>
+            </div>
+
+            <div class="text-center mb-8">
+              <div class="price-animation">
+                <span class="text-5xl font-extrabold text-[#ed5b31]">300</span>
+                <span class="text-2xl font-bold text-[#ed5b31]">RON</span>
+                <span class="text-gray-500 block mt-2">/ noapte</span>
+              </div>
+            </div>
+
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Cameră privată
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Baie privată
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Acces facilități la comun
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Additional Information -->
+      </div>
+    </section>
+    <!-- About -->
+    <section
+      class="section-about bg-[#f7f5f1] relative xl:py-[100px] py-[70px]"
+    >
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] mb-[-24px]"
+      >
+        <div
+          class="lg:w-1/2 w-full px-[12px] mb-[24px]"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <iframe
+            class="w-full aspect-square rounded-md"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.660686893013!2d25.295278565676252!3d45.497765150464424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b337a15c863fef%3A0x3db337d0374288c4!2sCasa%20MiraMonte!5e0!3m2!1sen!2sro!4v1743967101212!5m2!1sen!2sro"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div
+          class="lg:w-1/2 w-full px-[12px] mb-[24px]"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div
+            class="lh-about-detail h-full flex flex-col justify-center items-start"
+          >
+            <div class="text-left w-full 2xl:mb-[30px] xl:mb-[20px] px-4">
+              <h2
+                class="text-[#000] font-medium leading-[1.2] 2xl:text-[40px] xl:text-[35px] xl:pb-0 lg:text-[30px] md:text-[28px] sm:text-[26px] text-[22px]"
+              >
+                Ce gasesti <span class="text-[#ed5b31]">aproape</span>
+              </h2>
+            </div>
+            <div
+              class="lh-branches-paragraph 2xl:pb-[30px] xl:pb-[25px] pb-[20px] 2xl:pt-[0] xl:pt-[10px] pt-[20px] px-4"
+            >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+                quod iusto exercitationem labore voluptates. Corrupti aut dicta
+                aperiam illum odit. Obcaecati vitae quia pariatur tenetur! Harum
+                fugiat quidem voluptatum neque.
+              </p>
+            </div>
+
+            <div
+              class="lh-branches p-[24px] flex border-[1px] border-dashed border-[#000] rounded-[15px] flex-col"
+            >
+              <!-- Row 1 -->
+              <div class="flex flex-col sm:flex-row mb-4">
+                <div class="cols sm:mb-[0] mb-[12px]">
+                  <h4
+                    class="mb-[8px] text-[#000] xl:text-[20px] text-[18px] font-bold leading-[1.25] flex flex-row items-center"
+                  >
+                    <i
+                      class="fa-solid fa-location-dot text-[18px] py-[10px] me-2"
+                    ></i>
+                    Castelul Bran
+                  </h4>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing elit.
+                    Laborum, porro.
+                  </p>
+                </div>
+                <div class="cols sm:mb-[0] mb-[12px]">
+                  <h4
+                    class="mb-[8px] text-[#000] xl:text-[20px] text-[18px] font-bold leading-[1.25] flex flex-row items-center"
+                  >
+                    <i
+                      class="fa-solid fa-location-dot text-[18px] py-[10px] me-2"
+                    ></i>
+                    Cetatea Rasnov
+                  </h4>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing elit.
+                    Laborum, porro.
+                  </p>
+                </div>
+              </div>
+              <!-- Row 2 -->
+              <div class="flex flex-col sm:flex-row">
+                <div class="cols sm:mb-[0] mb-[12px]">
+                  <h4
+                    class="mb-[8px] text-[#000] xl:text-[20px] text-[18px] font-bold leading-[1.25] flex flex-row items-center"
+                  >
+                    <i
+                      class="fa-solid fa-location-dot text-[18px] py-[10px] me-2"
+                    ></i>
+                    Dino Parc Rasnov
+                  </h4>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing elit.
+                    Laborum, porro.
+                  </p>
+                </div>
+                <div class="cols sm:mb-[0] mb-[12px]">
+                  <h4
+                    class="mb-[8px] text-[#000] xl:text-[20px] text-[18px] font-bold leading-[1.25] flex flex-row items-center"
+                  >
+                    <i
+                      class="fa-solid fa-location-dot text-[18px] py-[10px] me-2"
+                    ></i>
+                    Poiana Brasov
+                  </h4>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing elit.
+                    Laborum, porro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Amenities -->
+    <section class="section-amenities relative xl:py-[100px] py-[70px]">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] relative"
+      >
+        <div class="flex flex-wrap mb-[-24px]">
+          <div class="md:w-1/2 w-full px-[12px] mb-[24px]">
+            <div
+              class="lh-amenities shadow-[0_0_50px_0_rgba(0,0,0,0.1)] flex rounded-[15px] bg-[#fff] overflow-hidden"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <div class="amenities-detail flex flex-wrap xl:flex-row flex-col">
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] p-[24px] flex items-center justify-center"
+                >
+                  <img
+                    src="/static/images/ciubar.jpg"
+                    alt="amenities_1"
+                    class="w-full h-full xl:rounded-none rounded-[15px]"
+                  />
+                </div>
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] px-[24px] pb-[24px] flex items-center justify-center"
+                >
+                  <div class="lh-amenities-in relative xl:p-[24px] px-[0]">
+                    <h4
+                      class="side-number absolute xl:top-[24px] xl:right-[24px] top-[0px] right-[0px] text-[55px] font-extrabold leading-[55px] text-[#0000000d]"
+                    >
+                      01
+                    </h4>
+                    <div class="lh-top-dish pb-[15px]">
+                      <svg
+                        fill="#ED5B31"
+                        height="50"
+                        width="50"
+                        class="svg-img w-[50px] h-[50px]"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 456.51 456.51"
+                        xml:space="preserve"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            d="M319.349,389.262H137.161c-50.469,0-102.489-41.354-115.962-92.186L4.413,231.455C1.547,222.292,0,212.547,0,202.451 c0-53.653,43.648-97.303,97.299-97.303h53.816c5.522,0,10,4.478,10,10s-4.478,10-10,10H97.299C54.676,125.149,20,159.825,20,202.45 c0,7.725,1.14,15.19,3.258,22.233c0.135,0.354,0.251,0.72,0.348,1.095l0.036,0.144c9.959,31.186,39.214,53.832,73.657,53.832H359.21 c34.441,0,63.695-22.645,73.656-53.826l0.038-0.149c0.097-0.377,0.214-0.744,0.35-1.1c2.117-7.041,3.256-14.505,3.256-22.227 c0-42.625-34.677-77.303-77.3-77.303h-74.882c-5.522,0-10-4.478-10-10s4.478-10,10-10h74.882c53.651,0,97.3,43.649,97.3,97.301 c0,10.096-1.544,19.834-4.411,28.997l-16.766,65.546C421.838,347.908,369.817,389.262,319.349,389.262z M37.199,278.922 l3.354,13.113c11.085,41.823,55.336,77.227,96.607,77.227h182.188c41.271,0,85.522-35.403,96.63-77.311l3.333-13.03 c-16.558,13.042-37.438,20.832-60.102,20.832H97.299C74.636,299.753,53.757,291.964,37.199,278.922z M217.511,257.068 c-9.89,0.001-19.851-3.998-27.085-10.969c-4.011-3.866-9.69-6.031-14.839-5.667c-3.697,0.267-6.623,1.753-8.696,4.416 c-0.006,0.007-0.011,0.014-0.016,0.021c-5.53,7.126-13.775,11.425-23.216,12.105c-10.714,0.775-21.819-3.292-29.688-10.875 c-4.011-3.867-9.693-6.031-14.838-5.667c-3.706,0.267-6.638,1.759-8.712,4.434c-3.385,4.366-9.666,5.159-14.03,1.774 s-5.159-9.666-1.774-14.03c5.542-7.146,13.738-11.453,23.078-12.126c10.816-0.78,22.066,3.415,30.156,11.216 c3.788,3.65,9.291,5.697,14.369,5.326c2.621-0.188,6.285-1.108,8.854-4.419c0.008-0.011,0.016-0.021,0.024-0.03 c5.541-7.125,13.725-11.42,23.048-12.093c10.783-0.781,22.064,3.412,30.159,11.214c3.791,3.653,9.303,5.696,14.371,5.328 c2.62-0.188,6.281-1.108,8.848-4.417c0.008-0.011,0.017-0.021,0.024-0.032c5.542-7.127,13.728-11.421,23.054-12.093 c10.781-0.781,22.065,3.414,30.158,11.215c3.976,3.833,4.092,10.163,0.259,14.14c-3.833,3.976-10.164,4.092-14.14,0.259 c-4.01-3.866-9.688-6.031-14.839-5.665c-3.699,0.267-6.627,1.753-8.701,4.419c-0.004,0.005-0.009,0.011-0.013,0.016 c-5.527,7.126-13.771,11.426-23.21,12.107C219.251,257.036,218.38,257.068,217.511,257.068z M217.677,213.963 c-9.89,0-19.852-3.998-27.085-10.969c-4.011-3.867-9.698-6.034-14.838-5.667c-3.706,0.267-6.638,1.759-8.712,4.434 c-3.385,4.366-9.666,5.159-14.03,1.774s-5.159-9.666-1.774-14.03c5.542-7.146,13.738-11.453,23.078-12.126 c10.807-0.774,22.066,3.414,30.156,11.216c3.788,3.65,9.285,5.685,14.369,5.327c2.62-0.189,6.281-1.108,8.85-4.415 c0.001-0.001,0.002-0.002,0.002-0.002c5.541-7.146,13.736-11.452,23.074-12.126c10.793-0.777,22.065,3.413,30.159,11.214 c3.79,3.652,9.31,5.701,14.371,5.328c2.62-0.188,6.281-1.108,8.848-4.417c0.008-0.011,0.017-0.021,0.024-0.032 c5.542-7.127,13.728-11.421,23.054-12.093c10.785-0.775,22.065,3.413,30.158,11.215c3.976,3.833,4.092,10.163,0.259,14.14 c-3.833,3.976-10.164,4.093-14.14,0.259c-4.01-3.865-9.681-6.036-14.839-5.665c-3.699,0.267-6.627,1.753-8.701,4.419 c-0.004,0.005-0.009,0.011-0.013,0.016c-5.527,7.126-13.771,11.426-23.21,12.107c-10.724,0.771-21.821-3.292-29.69-10.875 c-4.013-3.867-9.704-6.034-14.84-5.667c-3.697,0.267-6.623,1.753-8.696,4.416c-0.006,0.007-0.011,0.014-0.016,0.021 c-5.53,7.126-13.775,11.426-23.216,12.106C219.414,213.932,218.545,213.963,217.677,213.963z M232.867,163.046 c-2.551,0-5.101-0.969-7.052-2.909c-3.916-3.895-3.934-10.227-0.039-14.143c6.35-6.385,5.951-22.123-0.79-31.185 c-0.007-0.009-0.014-0.019-0.021-0.027c-8.044-10.833-11.409-26.383-8.574-39.626c1.156-5.399,6.467-8.843,11.872-7.685 c5.4,1.156,8.841,6.472,7.685,11.872c-1.658,7.746,0.38,17.191,5.073,23.513c0.004,0.005,0.008,0.011,0.012,0.016 c11.301,15.191,13.639,42.43-1.075,57.226C238.004,162.063,235.436,163.046,232.867,163.046z M192.082,163.043 c-2.551,0-5.101-0.97-7.052-2.91c-3.916-3.895-3.933-10.227-0.038-14.142c6.346-6.38,5.949-22.101-0.781-31.165 c-0.005-0.006-0.01-0.013-0.015-0.019c-8.056-10.836-11.428-26.4-8.591-39.651c1.156-5.399,6.467-8.843,11.872-7.685 c5.4,1.156,8.841,6.472,7.685,11.872c-1.658,7.744,0.38,17.189,5.07,23.512c0.004,0.005,0.008,0.011,0.012,0.016 c11.304,15.191,13.644,42.43-1.072,57.224C197.218,162.06,194.649,163.043,192.082,163.043z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="amenities-contain">
+                      <h4
+                        class="amenities-heading xl:text-[22px] text-[18px] font-bold text-[#000] leading-[1.2]"
+                      >
+                        Ciubar mare
+                      </h4>
+                      <p class="text-[14px] lg:py-[15px] md:py-[10px] py-[5px]">
+                        This is the dolor sit amet adipisicing elit. Ducimus
+                        corrupti sit amet tempore placeat ipsa.
+                      </p>
+                      <a
+                        href="facilities.html"
+                        class="no-underline uppercase text-[12px] text-[#000] font-bold hover:text-[#000]"
+                        >Vezi poze
+                        <i
+                          class="fa-solid fa-images text-[15px] ml-[2px] duration-[0.2s] ease-in-out"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 w-full px-[12px] mb-[24px]">
+            <div
+              class="lh-amenities shadow-[0_0_50px_0_rgba(0,0,0,0.1)] flex rounded-[15px] bg-[#fff] overflow-hidden"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="amenities-detail flex flex-wrap xl:flex-row flex-col">
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] p-[24px] flex items-center justify-center"
+                >
+                  <img
+                    src="static/images/playground.jpg"
+                    alt="amenities_2"
+                    class="w-full h-full xl:rounded-none rounded-[15px]"
+                  />
+                </div>
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] px-[24px] pb-[24px] flex items-center justify-center"
+                >
+                  <div class="lh-amenities-in relative xl:p-[24px] px-[0]">
+                    <h4
+                      class="side-number absolute xl:top-[24px] xl:right-[24px] top-[0px] right-[0px] text-[55px] font-extrabold leading-[55px] text-[#0000000d]"
+                    >
+                      02
+                    </h4>
+                    <div class="lh-top-dish pb-[15px]">
+                      <svg
+                        fill="#ED5B31"
+                        height="50"
+                        width="50"
+                        class="svg-img w-[50px] h-[50px]"
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512.042 512.042"
+                        xml:space="preserve"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <g transform="translate(-1)">
+                            <g>
+                              <path
+                                d="M491.708,469.354c-35.386,0-64-28.614-64-64c0-63.477-46.093-116.081-106.667-126.224v-65.776 c18.329,0,28.125-21.588,16.055-35.381L187.763,7.306c-8.499-9.714-23.61-9.714-32.11,0L6.32,177.973 c-12.07,13.794-2.274,35.381,16.055,35.381v149.333c0,11.782,9.551,21.333,21.333,21.333v106.667 c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333V384.021h21.333v106.667 c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333v-21.333h42.667v21.333 c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333V384.021h21.333v106.667 c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333V384.021c11.782,0,21.333-9.551,21.333-21.333v-39.986 c36.835,9.456,64,42.838,64,82.653c0,58.95,47.717,106.667,106.667,106.667c11.782,0,21.333-9.551,21.333-21.333 S503.49,469.354,491.708,469.354z M171.708,53.751l102.32,116.937H69.389L171.708,53.751z M278.375,213.354v128H65.042v-128 H278.375z M193.042,426.687h-42.667v-42.667h42.667V426.687z"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="amenities-contain">
+                      <h4
+                        class="amenities-heading xl:text-[22px] text-[18px] font-bold text-[#000] leading-[1.2]"
+                      >
+                        Loc de joaca
+                      </h4>
+                      <p class="text-[14px] lg:py-[15px] md:py-[10px] py-[5px]">
+                        This is the dolor sit amet adipisicing elit. Ducimus
+                        corrupti sit amet tempore placeat ipsa.
+                      </p>
+                      <a
+                        href="facilities.html"
+                        class="no-underline uppercase text-[12px] text-[#000] font-bold hover:text-[#000]"
+                        >Vezi poze
+                        <i
+                          class="fa-solid fa-images text-[15px] ml-[2px] duration-[0.2s] ease-in-out"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 w-full px-[12px] mb-[24px]">
+            <div
+              class="lh-amenities shadow-[0_0_50px_0_rgba(0,0,0,0.1)] flex rounded-[15px] bg-[#fff] overflow-hidden"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <div class="amenities-detail flex flex-wrap xl:flex-row flex-col">
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] px-[24px] pt-[24px] flex items-center justify-center"
+                >
+                  <div
+                    class="lh-amenities-in relative xl:p-[24px] px-[0] lh-amenities-right"
+                  >
+                    <h4
+                      class="side-number absolute xl:top-[24px] xl:right-[24px] top-[0px] right-[0px] text-[55px] font-extrabold leading-[55px] text-[#0000000d]"
+                    >
+                      03
+                    </h4>
+                    <div class="lh-top-dish pb-[15px]">
+                      <i
+                        class="fa-solid fa-house svg-img w-[50px] h-[50px] text-[#ED5B31]"
+                      ></i>
+                    </div>
+                    <div class="amenities-contain">
+                      <h4
+                        class="amenities-heading xl:text-[22px] text-[18px] font-bold text-[#000] leading-[1.2]"
+                      >
+                        Foisor spatios
+                      </h4>
+                      <p class="text-[14px] lg:py-[15px] md:py-[10px] py-[5px]">
+                        This is the dolor sit amet adipisicing elit. Ducimus
+                        corrupti sit amet tempore placeat ipsa.
+                      </p>
+                      <a
+                        href="facilities.html"
+                        class="no-underline uppercase text-[12px] text-[#000] font-bold hover:text-[#000]"
+                        >Vezi poze
+                        <i
+                          class="fa-solid fa-images text-[15px] ml-[2px] duration-[0.2s] ease-in-out"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] p-[24px] flex items-center justify-center"
+                >
+                  <img
+                    src="/static/images/foisor.jpg"
+                    alt="amenities_3"
+                    class="w-full h-full xl:rounded-none rounded-[15px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 w-full px-[12px] mb-[24px]">
+            <div
+              class="lh-amenities shadow-[0_0_50px_0_rgba(0,0,0,0.1)] flex rounded-[15px] bg-[#fff] overflow-hidden"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="amenities-detail flex flex-wrap xl:flex-row flex-col">
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] px-[24px] pt-[24px] flex items-center justify-center"
+                >
+                  <div
+                    class="lh-amenities-in relative xl:p-[24px] px-[0] lh-amenities-right"
+                  >
+                    <h4
+                      class="side-number absolute xl:top-[24px] xl:right-[24px] top-[0px] right-[0px] text-[55px] font-extrabold leading-[55px] text-[#0000000d]"
+                    >
+                      04
+                    </h4>
+                    <div class="lh-top-dish pb-[15px]">
+                      <svg
+                        class="w-[50px] h-[50px] svg-img"
+                        viewBox="0 0 45 45"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="#ED5B31"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <g clip-path="url(#clip0_2_1364)">
+                            <path
+                              d="M19 25.875L14 36.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M27 25.875L32 36.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M23 36.875V25.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M12 15.875C12 21.95 16.925 26.875 23 26.875C29.075 26.875 34 21.95 34 15.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M30 31.875H16"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M13 18.875H9"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M37 18.875H33"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M19.705 14.875C16.152 14.875 11 14.875 11 14.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M35 14.875C35 14.875 32.307 14.875 29.527 14.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M30.994 -13.125C30.999 -8.292 27 -7.042 27 -2.125C27 2.792 30.999 4.042 30.994 8.875C30.989 13.708 27 15.042 27 19.875M25.994 -13.125C25.999 -8.292 22 -7.042 22 -2.125C22 2.792 25.999 4.042 25.994 8.875C25.989 13.708 22 15.042 22 19.875M20.994 -13.125C20.999 -8.292 17 -7.042 17 -2.125C17 2.792 20.999 4.042 20.994 8.875C20.989 13.708 17 15.042 17 19.875M30.994 -35.191C30.999 -30.358 27 -29.108 27 -24.191C27 -19.274 30.999 -18.024 30.994 -13.191V-13.125C30.999 -8.292 27 -7.042 27 -2.125C27 2.792 30.999 4.042 30.994 8.875C30.989 13.708 27 15.042 27 19.875M25.994 -35.191C25.999 -30.358 22 -29.108 22 -24.191C22 -19.274 25.999 -18.024 25.994 -13.191V-13.125C25.999 -8.292 22 -7.042 22 -2.125C22 2.792 25.999 4.042 25.994 8.875C25.989 13.708 22 15.042 22 19.875M20.994 -35.191C20.999 -30.358 17 -29.108 17 -24.191C17 -19.274 20.999 -18.024 20.994 -13.191V-13.125C20.999 -8.292 17 -7.042 17 -2.125C17 2.792 20.999 4.042 20.994 8.875C20.989 13.708 17 15.042 17 19.875"
+                              stroke="#ED5B31"
+                              stroke-width="2"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2_1364">
+                              <rect width="45" height="45" fill="white"></rect>
+                            </clipPath>
+                          </defs>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="amenities-contain">
+                      <h4
+                        class="amenities-heading xl:text-[22px] text-[18px] font-bold text-[#000] leading-[1.2]"
+                      >
+                        Zona gratar
+                      </h4>
+                      <p class="text-[14px] lg:py-[15px] md:py-[10px] py-[5px]">
+                        This is the dolor sit amet adipisicing elit. Ducimus
+                        corrupti sit amet tempore placeat ipsa.
+                      </p>
+                      <a
+                        href="facilities.html"
+                        class="no-underline uppercase text-[12px] text-[#000] font-bold hover:text-[#000]"
+                        >Vezi poze
+                        <i
+                          class="fa-solid fa-images text-[15px] ml-[2px] duration-[0.2s] ease-in-out"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="amenities-box xl:w-[50%] xl:p-0 w-[100%] p-[24px] flex items-center justify-center"
+                >
+                  <img
+                    src="static/images/bbq.jpg"
+                    alt="amenities_4"
+                    class="w-full h-full xl:rounded-none rounded-[15px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="after:bg-[url(&#39;assets/img/theme/5.png&#39;)] dark-opicity-5 bg-size-full after:bg-no-repeat after:absolute after:right-0 after:bottom-[-60px] after:z-[-1] after:2xl:w-[175px] after:w-[120px] after:2xl:h-[150px] after:h-[120px]"
+      ></div>
+    </section>
+    <!-- Photos -->
+    <section
+      class="relative px-4 py-16 sm:px-8 lg:px-16 lg:py-32 xl:px-40 2xl:px-64"
+      id="galerie"
+    >
+      <div class="text-center w-full mb-[30px] px-4">
+        <h2
+          class="text-[#000] font-medium leading-[1.2] 2xl:text-[40px] xl:text-[35px] xl:pb-0 lg:text-[30px] md:text-[28px] sm:text-[26px] text-[22px]"
+        >
+          Galerie <span class="text-[#ed5b31]">foto</span>
+        </h2>
+      </div>
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div class="grid gap-4">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/portret-entry.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square8.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square3.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square1.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/portret3.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square5.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/portret1.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square7.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square2.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square6.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/portret2.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="static/gallery/square4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Rules -->
+    <section class="relative xl:py-[100px] py-[70px]" id="reguli">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] relative"
+      >
+        <h2
+          class="text-[#000] mb-4 w-full text-center font-medium leading-[1.2] 2xl:text-[40px] xl:text-[35px] xl:pb-0 lg:text-[30px] md:text-[28px] sm:text-[26px] text-[22px]"
+        >
+          Regulament <span class="text-[#ed5b31]">interior</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Rule Card 1 -->
+          <div
+            class="bg-white rounded-2xl shadow-xl p-8 hover-lift border border-gray-100"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-gradient-to-br from-blue-500 to-indigo-600 w-12 h-12 rounded-xl flex items-center justify-center text-[#ed5b31] font-bold text-xl shadow-lg"
+              >
+                1
+              </div>
+              <h3 class="text-2xl font-bold text-[#ed5b31] ml-4">
+                Fumat <i class="fa-solid fa-smoking"></i>
+              </h3>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              Nu se fumează în interior (nici țigări, nici IQOS). Se fumează
+              doar în zona special amenajată.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Folositi zona special amenajată
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Zona este incalzita si ventilata.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Rule Card 2 -->
+          <div
+            class="bg-white rounded-2xl shadow-xl p-8 hover-lift border border-gray-100"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-gradient-to-br from-purple-500 to-pink-600 w-12 h-12 rounded-xl flex items-center justify-center text-[#ed5b31] font-bold text-xl shadow-lg"
+              >
+                2
+              </div>
+              <h3 class="text-2xl font-bold text-[#ed5b31] ml-4">
+                Ciubar <i class="fa-solid fa-hot-tub-person"></i>
+              </h3>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              Nu se intră în ciubar în stare de ebrietate. Se folosește ciubarul
+              conform instrucțiunilor.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Evitati sa folositi ciubarul in stare de ebrietate.
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Urmati instructiunile gazdei.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Rule Card 3 -->
+          <div
+            class="bg-white rounded-2xl shadow-xl p-8 hover-lift border border-gray-100"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-gradient-to-br from-emerald-500 to-teal-600 w-12 h-12 rounded-xl flex items-center justify-center text-[#ed5b31] font-bold text-xl shadow-lg"
+              >
+                3
+              </div>
+              <h3 class="text-2xl font-bold text-[#ed5b31] ml-4">
+                Incaltaminte <i class="fa-solid fa-shoe-prints"></i>
+              </h3>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              Nu se intră încălțat în interior. Va rugăm sa folosiți papuci.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Va rugam sa nu intrati incaltati de afara.
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Va rugam sa folositi papuci
+              </li>
+            </ul>
+          </div>
+
+          <!-- Rule Card 4 -->
+          <div
+            class="bg-white rounded-2xl shadow-xl p-8 hover-lift border border-gray-100"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-gradient-to-br from-orange-500 to-red-600 w-12 h-12 rounded-xl flex items-center justify-center text-[#ed5b31] font-bold text-xl shadow-lg"
+              >
+                4
+              </div>
+              <h3 class="text-2xl font-bold text-[#ed5b31] ml-4">
+                Nu deranjati fauna si flora <i class="fa-solid fa-seedling"></i>
+              </h3>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              Nu acceptăm animale de companie în locație.
+            </p>
+            <ul class="mt-4 space-y-2">
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Evitati sa rupeti plantele din jurul cabanei.
+              </li>
+              <li class="flex items-center text-gray-600">
+                <svg
+                  class="w-5 h-5 text-green-500 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                Nu hraniti animalele salbatice.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="py-24 relative" id="testimoniale">
+      <div class="w-full max-w-7xl px-4 md:px-5 lg-6 mx-auto">
+        <h2
+          class="text-[#000] mb-4 text-center font-medium leading-[1.2] 2xl:text-[40px] xl:text-[35px] xl:pb-0 lg:text-[30px] md:text-[28px] sm:text-[26px] text-[22px]"
+        >
+          Oamenii ne <span class="text-[#ed5b31]">iubesc</span>
+        </h2>
+        <div class="grid grid-cols-1 gap-8">
+          <div
+            class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div class="col-span-12 lg:col-span-10">
+              <div class="sm:flex gap-6">
+                <img
+                  src="https://lh3.googleusercontent.com/a-/ALV-UjXL9Y1aK25NXu9VaUo5j2ww0N9a41a0OqIJ9wi1b_kSnS1NORG2=w75-h75-p-rp-mo-br100"
+                  alt="Robert image"
+                  class="w-32 h-32 rounded-full object-cover"
+                />
+                <div class="text">
+                  <p class="font-medium text-lg leading-8 text-gray-900 mb-2">
+                    Tudor Popescu
+                  </p>
+                  <div
+                    class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <p
+                    class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
+                  >
+                    One of the standout features of Amazing! Forget about
+                    crowded Bran, this is the place to stay if you want the real
+                    deal! It's still part of the Bran area (not Brasov!), but
+                    out of the way of the hordes of tourists. The view of the
+                    Piatra Craiului mountains is absolutely fantastic and the
+                    reception room (actually a separate building, as to not
+                    disturb those who want peace and quiet) has huge windows
+                    towards that view. I totally, totally recommend this place!
+                    Did I mention the extremely friendly staff and modern,
+                    clean, comfy rooms and premises? Oh!, and they have a kids'
+                    playground, too!
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <div class="cursor-pointers flex items-center gap-2">
+                      <a
+                        target="_blank"
+                        href="https://g.co/kgs/7FFdxXk"
+                        class="font-semibold text-lg cursor-pointer leading-8 text-indigo-600 whitespace-nowrap"
+                      >
+                        Vezi toata recenzia</a
+                      >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.25324 5.49609L13.7535 10.9963L8.25 16.4998"
+                          stroke="#4F46E5"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 lg:col-span-2 max-lg:hidden flex lg:items-center flex-row lg:flex-col justify-center max-lg:pt-6"
+            >
+              <div
+                class="flex items-center gap-2 lg:justify-between w-full mb-5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="pb-8 border-b border-gray-100 w-full"></div>
+          <div
+            class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
+            <div class="col-span-12 lg:col-span-10">
+              <div class="sm:flex gap-6">
+                <img
+                  src="https://lh3.googleusercontent.com/a-/ALV-UjV3KHgwz2Ok7dmEYMUPdf8uJcBnTjjGPowSjxRwGMeSRuuzpz2M6w=w75-h75-p-rp-mo-ba2-br100"
+                  alt="Robert image"
+                  class="w-32 h-32 rounded-full object-cover"
+                />
+                <div class="text">
+                  <p class="font-medium text-lg leading-8 text-gray-900 mb-2">
+                    Andrei Ceru
+                  </p>
+                  <div
+                    class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <p
+                    class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
+                  >
+                    We had an awesome experience at Casa MiraMonte. The location
+                    is great, the hosts are very nice and accomodating and the
+                    view is superb.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      <a
+                        target="_blank"
+                        href="https://g.co/kgs/EYfAwTW"
+                        class="font-semibold text-lg cursor-pointer leading-8 text-indigo-600 whitespace-nowrap"
+                      >
+                        Vezi toata recenzia</a
+                      >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.25324 5.49609L13.7535 10.9963L8.25 16.4998"
+                          stroke="#4F46E5"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 lg:col-span-2 max-lg:hidden flex lg:items-center flex-row lg:flex-col justify-center max-lg:pt-6"
+            >
+              <div
+                class="flex items-center gap-2 lg:justify-between w-full mb-5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="pb-8 border-b border-gray-100 w-full"></div>
+          <div
+            class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            <div class="col-span-12 lg:col-span-10">
+              <div class="sm:flex gap-6">
+                <img
+                  src="https://lh3.googleusercontent.com/a-/ALV-UjXLDRm0pNr0ZlQ7jB0I09b6-1bEqU2LBaE9A2WcIScgObhDsTZN=w75-h75-p-rp-mo-ba3-br100"
+                  alt="Robert image"
+                  class="w-32 h-32 rounded-full object-cover"
+                />
+                <div class="text">
+                  <p class="font-medium text-lg leading-8 text-gray-900 mb-2">
+                    Anne Marie Marinescu
+                  </p>
+                  <div
+                    class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <p
+                    class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
+                  >
+                    Situată într-o locaţie absolut minunată, cu o privelişte
+                    ce-ţi încântă ochii şi inima, MiraMonte este o alegere
+                    perfectă pentru un sejur de relaxare. Camerele sunt mobilate
+                    cu gust, simplu şi confortabil. Curăţenia este ireproşabilă.
+                    Proprietatea are tot ce ţi-ai putea dori: o livadă cu hamac
+                    în care te poţi deconecta 100%, un loc de grătar cu vedere
+                    spre livadă şi munţi, un loc de joacă pentru copii, cu multe
+                    opţiuni, un loc de relaxare acoperit şi, piesa de
+                    rezistenţă, un foişor fantastic, cu toate dotările necesare
+                    şi cu o panoramă demnă de paginile National Geographic.
+                    Gazdele, Oana şi Claudiu, merită felicitări pentru modul în
+                    care ştiu să-şi încânte oaspeţii, cu răsfăţ de bunătăţuri şi
+                    poveşti la o ceaşcă de cafea bună. Am aflat că au planuri
+                    pentru a continua să îmbunătăţească gradul de confort şi
+                    dotări, aşa că vom reveni cu drag să ne reîncărcăm
+                    bateriile. Nota 10, fără rezerve!
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      <a
+                        target="_blank"
+                        href="https://g.co/kgs/2JNEZxo"
+                        class="font-semibold text-lg cursor-pointer leading-8 text-indigo-600 whitespace-nowrap"
+                      >
+                        Vezi toata recenzia</a
+                      >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.25324 5.49609L13.7535 10.9963L8.25 16.4998"
+                          stroke="#4F46E5"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <p
+                      class="lg:hidden font-medium text-sm leading-7 text-gray-400 lg:text-center whitespace-nowrap"
+                    >
+                      Nov 01, 2023
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 lg:col-span-2 max-lg:hidden flex lg:items-center flex-row lg:flex-col justify-center max-lg:pt-6"
+            >
+              <div
+                class="flex items-center gap-2 lg:justify-between w-full mb-5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="pb-8 border-b border-gray-100 w-full"></div>
+          <div
+            class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <div class="col-span-12 lg:col-span-10">
+              <div class="sm:flex gap-6">
+                <img
+                  src="https://lh3.googleusercontent.com/a-/ALV-UjW0gqgVDMNpf8d3sNwZiWSZgsaSVay-W7GioDXSA29mvbHnxWwMAw=w75-h75-p-rp-mo-ba4-br100"
+                  alt="Robert image"
+                  class="w-32 h-32 rounded-full object-cover"
+                />
+                <div class="text">
+                  <p class="font-medium text-lg leading-8 text-gray-900 mb-2">
+                    Monica Negrescu
+                  </p>
+                  <div
+                    class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_13624_2090)">
+                        <path
+                          d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                          fill="#FBBF24"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_13624_2090">
+                          <rect width="30" height="30" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <p
+                    class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
+                  >
+                    O locatie extraordinara❤️ Casa MiraMonte iti dezvaluie o
+                    priveliste extraordinara. Camere aranjate simplu cu bun gust
+                    si atentie la detalii. Curatenie de nota 10. O bucatarie
+                    mare in care gasesti tot ce ai nevoie + masina de spalat
+                    vase. Locul de joaca este perfect pentru familiile cu copii.
+                    Acestia se pot juca in voie iar parintii ii pot supraveghea
+                    din foisorul primitor. Se poate solicita pat extra pentru
+                    copii👍 Ciubarul este extraordinar. Gazde primitoare si
+                    gospodare. Ne-am simtit foarte bine.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      <a
+                        target="_blank"
+                        href="https://maps.app.goo.gl/YyfQTPj2UcV44ca47"
+                        class="font-semibold text-lg leading-8 text-indigo-600 whitespace-nowrap cursor-pointer"
+                      >
+                        Vezi toata recenzia</a
+                      >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.25324 5.49609L13.7535 10.9963L8.25 16.4998"
+                          stroke="#4F46E5"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <p
+                      class="lg:hidden font-medium text-sm leading-7 text-gray-400 lg:text-center whitespace-nowrap"
+                    >
+                      Nov 01, 2023
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-span-12 lg:col-span-2 max-lg:hidden flex lg:items-center flex-row lg:flex-col justify-center max-lg:pt-6"
+            >
+              <div
+                class="flex items-center gap-2 lg:justify-between w-full mb-5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_13624_2090)">
+                    <path
+                      d="M14.1033 2.56698C14.4701 1.82374 15.5299 1.82374 15.8967 2.56699L19.1757 9.21093C19.3214 9.50607 19.6029 9.71064 19.9287 9.75797L27.2607 10.8234C28.0809 10.9426 28.4084 11.9505 27.8149 12.5291L22.5094 17.7007C22.2737 17.9304 22.1662 18.2614 22.2218 18.5858L23.4743 25.8882C23.6144 26.7051 22.7569 27.3281 22.0233 26.9424L15.4653 23.4946C15.174 23.3415 14.826 23.3415 14.5347 23.4946L7.9767 26.9424C7.24307 27.3281 6.38563 26.7051 6.52574 25.8882L7.7782 18.5858C7.83384 18.2614 7.72629 17.9304 7.49061 17.7007L2.1851 12.5291C1.59159 11.9505 1.91909 10.9426 2.73931 10.8234L10.0713 9.75797C10.3971 9.71064 10.6786 9.50607 10.8243 9.21093L14.1033 2.56698Z"
+                      fill="#FBBF24"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13624_2090">
+                      <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+      <div
+        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      >
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2025 <a href="/" class="hover:underline">Casa MiraMonte</a>. Toate
+          drepturile sunt rezervate.
+        </span>
+        <ul
+          class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+        >
+          <li>
+            <a href="/" class="hover:underline me-4 md:me-6">Acasa</a>
+          </li>
+          <li>
+            <a href="#reguli" class="hover:underline me-4 md:me-6">Reguli</a>
+          </li>
+          <li>
+            <a href="#preturi" class="hover:underline me-4 md:me-6">Preturi</a>
+          </li>
+          <li>
+            <a href="#testimoniale" class="hover:underline">Recenzii</a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="flex flex-col md:flex-row items-start justify-start md:justify-center md:items-center"
+      >
+        <a
+          style="margin: 0; line-height: 1; padding: 0; text-decoration: none"
+          href="https://anpc.ro/ce-este-sal/"
+          target="_blank"
+          rel="nofollow"
+        >
+          <img
+            style="display: inline-block; border: 0; width: 250px; margin: 5px"
+            src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sal.svg"
+            alt="Solutionarea Alternativa a Litigiilor"
+          />
+        </a>
+        <br />
+        <a
+          style="margin: 0; line-height: 1; padding: 0; text-decoration: none"
+          href="https://ec.europa.eu/consumers/odr"
+          target="_blank"
+          rel="nofollow"
+        >
+          <img
+            style="display: inline-block; border: 0; width: 250px; margin: 5px"
+            src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sol.svg"
+            alt="Solutionarea Online a Litigiilor"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./static/js/swiper-bundle.min.js"></script>
+    <script src="./static/js/magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./static/js/semantic.min.js"></script>
+    <script src="./static/js/particles.min.js"></script>
+    <script src="./static/js/app.js"></script>
+    <script src="./static/js/main.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
