@@ -83,11 +83,14 @@
           </div>
         </div>
         <div class="w-1/2 py-[10px] flex justify-end">
-          <div class="md:pr-[15px] md:border-r border-solid border-[#ddd]">
+          <div
+            class="md:pr-[15px] md:border-r border-solid border-[#ddd] inline-flex items-center"
+          >
             <i
               class="fa-solid fa-phone mr-[5px] text-[#232B2B] text-[16px]"
             ></i>
-            +40 726 722 023
+            <p class="hidden md:block">+40 726 722 023</p>
+            <p class="block md:hidden">+40726722023</p>
           </div>
           <div class="mx-[-5px] pl-[15px] hidden md:flex">
             <a href="javascript:void(0)">
@@ -355,7 +358,7 @@
                     class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
                   >
                     <svg
-                      class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                      class="w-4 h-4 text-gray-500"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -3227,16 +3230,16 @@
       </div>
     </section>
     <!-- Footer -->
-    <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+    <footer class="bg-white rounded-lg shadow-sm m-4">
       <div
-        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+        class="w-full mx-auto md:max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
       >
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-          >© 2025 <a href="/" class="hover:underline">Casa MiraMonte</a>. Toate
-          drepturile sunt rezervate.
+        <span class="text-sm text-gray-500 sm:text-start"
+          >© 2025 <a href="/">Casa MiraMonte</a>.
+          <p>Toate drepturile sunt rezervate.</p>
         </span>
         <ul
-          class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+          class="flex flex-wrap items-center justify-evenly md:justify-start mt-3 text-sm font-medium text-gray-500 sm:mt-0"
         >
           <li>
             <a href="/" class="hover:underline me-4 md:me-6">Acasa</a>
