@@ -252,6 +252,10 @@ h1 {
   word-spacing: 15px;
 }
 
+#secondPartHeader > h2 {
+  color: #ed5b31 !important;
+}
+
 p,
 li,
 a,
